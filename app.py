@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 
 with open("churn_model.pkl", "rb") as f:
-    model = pickle.load(f)
+    model = pickle.load(f) 
 
 st.title("📊 Customer Churn Prediction")
 
